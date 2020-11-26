@@ -1,4 +1,4 @@
-# Haishanh Brew
+# Brew
 
 ## How do I install these formulae?
 `brew install haishanh/brew/<formula>`
