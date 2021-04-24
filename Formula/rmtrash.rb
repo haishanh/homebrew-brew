@@ -11,16 +11,15 @@ class Rmtrash < Formula
   end
 
   bottle do
-    cellar :any_skip_relocation
     rebuild 1
-    sha256 "0f24f644515213a55e0696c8f28af1db23b79aed588b815408d3903bf01c6cc6" => :big_sur
-    sha256 "00c8b2e19b0e59b1b5bf9b8298b2013f75692fc4f0e667f342b83a2177717a11" => :catalina
-    sha256 "c2da781e4931d89a398983d0ac065a0647298417ce4f9fa1e0d6aacb8109f6f3" => :mojave
-    sha256 "1acafe5b7c1d492c6f3aa685c37a56c51972fdd62b6653ee6efb2f2f0b9a7715" => :high_sierra
-    sha256 "e9770d2d1fef053ba9743548537fb70ca491755c10c0a6b6d106e919d86c4b54" => :sierra
-    sha256 "a8b6815f555377a91e800085db9680cc9234b27a4b114ea13e6664a2b1b663d3" => :el_capitan
-    sha256 "adab3849ec805b7c2679e9b278e4d101249193dbd7210f078224e69fc3bb2f1f" => :yosemite
-    sha256 "102f54f713574d7009e3b4fd33738b6b631608a0c38f6ad0945ca1af5a8d6ef5" => :mavericks
+    sha256 cellar: :any_skip_relocation, big_sur:     "0f24f644515213a55e0696c8f28af1db23b79aed588b815408d3903bf01c6cc6"
+    sha256 cellar: :any_skip_relocation, catalina:    "00c8b2e19b0e59b1b5bf9b8298b2013f75692fc4f0e667f342b83a2177717a11"
+    sha256 cellar: :any_skip_relocation, mojave:      "c2da781e4931d89a398983d0ac065a0647298417ce4f9fa1e0d6aacb8109f6f3"
+    sha256 cellar: :any_skip_relocation, high_sierra: "1acafe5b7c1d492c6f3aa685c37a56c51972fdd62b6653ee6efb2f2f0b9a7715"
+    sha256 cellar: :any_skip_relocation, sierra:      "e9770d2d1fef053ba9743548537fb70ca491755c10c0a6b6d106e919d86c4b54"
+    sha256 cellar: :any_skip_relocation, el_capitan:  "a8b6815f555377a91e800085db9680cc9234b27a4b114ea13e6664a2b1b663d3"
+    sha256 cellar: :any_skip_relocation, yosemite:    "adab3849ec805b7c2679e9b278e4d101249193dbd7210f078224e69fc3bb2f1f"
+    sha256 cellar: :any_skip_relocation, mavericks:   "102f54f713574d7009e3b4fd33738b6b631608a0c38f6ad0945ca1af5a8d6ef5"
   end
 
   def install
